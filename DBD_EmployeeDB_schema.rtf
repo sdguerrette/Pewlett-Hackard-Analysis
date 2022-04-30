@@ -38,13 +38,13 @@ to_date DATE\
 Titles\
 -\
 emp_no INT pk fk -< Employees.emp_no\
-title VARCHAR\
-from_date DATE\
+title VARCHAR pk\
+from_date DATE pk\
 to_date DATE\
 \
 Dept_emp\
 -\
 emp_no INT pk fk -< Employees.emp_no \
-dept_no VARCHAR fk -< Departments.dept_no\
+dept_no VARCHAR pk fk -< Departments.dept_no\
 from_date DATE\
 to_date DATE}
